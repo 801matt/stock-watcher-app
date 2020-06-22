@@ -4,7 +4,7 @@ import LargeCard from "../LargeCard";
 import { Tablet } from "../../sizing";
 import styled from "styled-components";
 
-const InternalUseDashboard = styled.div`
+const InternalUseDashboard = styled.section`
   max-width: 80rem;
   margin: 0 auto;
   .dashboard__large-card {

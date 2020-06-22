@@ -119,12 +119,6 @@ const InternalUseLargeCard = styled.div`
         &:first-child {
           margin-left: 0;
         }
-        .tablet-card__arrow {
-        }
-        .tablet-card__points {
-        }
-        .tablet-card__percentage {
-        }
       }
       /* SET COLORS FOR POSITIVE STOCK STATUS */
       .tablet-card__current-price-stats.positive {
@@ -166,12 +160,6 @@ const InternalUseLargeCard = styled.div`
           .tablet-card__company-name {
             max-width: 15.1875rem;
           }
-        }
-      }
-      .tablet-card__current-price-data {
-        .tablet-card__currnet-price {
-        }
-        .tablet-card__current-price-stats {
         }
       }
       .tablet-card__open-high-low {

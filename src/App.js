@@ -27,10 +27,10 @@ const App = () => {
     const symbolExists = StockData.some(el => el.symbol === userInput);
     if (symbolExists) {
       // CHECK TO SEE IF STOCK ALREADY EXISTS IN STOCKDATA OBJECT
-      const alreadyExistsInStockDataObject = stocks.some(
+      const alreadyExistsInStockSObject = stocks.some(
         el => el.symbol === userInput
       );
-      if (!alreadyExistsInStockDataObject) {
+      if (!alreadyExistsInStockSObject) {
         const newStocks = [...stocks];
         const newStock = StockData.filter(x => x.symbol === userInput);
         newStocks.push(newStock[0]);
@@ -43,7 +43,6 @@ const App = () => {
       setErrorState("Please enter a valid stock symbol.");
     }
   };
-  console.log(stocks);
 
   return (
     <InternalUseApp>
