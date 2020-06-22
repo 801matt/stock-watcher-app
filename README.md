@@ -14,7 +14,7 @@ The Stock Watcher App is an application that takes the desired stock symbol as i
 
 This applciation has six stock symbols that may be added into the text input field to view data and visualizations about the desired stock.
 
-To view stock information, please enter any of the valid stock symbols as provided blow:
+To view stock information, please enter any of the valid stock symbols as provided below:
 
 - Facebook: FB
 - Uber: UBER
