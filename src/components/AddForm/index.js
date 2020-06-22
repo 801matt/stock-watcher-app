@@ -104,7 +104,7 @@ const AddForm = ({ errorState, addStockClicked }) => {
             className="add-stock__input"
             type="text"
             placeholder="Enter stock symbol"
-            // required
+            required
           />
         </div>
         <button className="add-stock__button small">Add</button>
